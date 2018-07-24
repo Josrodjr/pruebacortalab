@@ -1,0 +1,72 @@
+.cube {
+  height: 2rem;
+  width: 2rem;
+  background: black;
+}
+
+.minidiv {
+  height: 100%;
+  width: 2rem;
+  background: red;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+
+.inputbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  background: lightcoral;
+}
+
+.fecha {
+  display: flex;
+  width: 80%;
+  height: 5rem;
+  min-height: 5rem;
+  background: lightgrey;
+  justify-content: center;
+}
+
+.graphbox {
+  display: flex;
+  width: 80%;
+  height: 15rem;
+  min-height: 15rem;
+  background: lightsalmon;
+  align-self: flex-start;
+}
+
+.allfigonacci {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 40rem;
+  background: lightblue;
+  overflow-y: auto;
+}
+
+.ingreso {
+  width: 25rem;
+  height: 1.5rem;
+  background: white;
+  font-size: 18px;
+  font-family: Poor Story;
+}
+
+.btninput {
+  width: auto;
+  height: 2rem;
+  background: #007F34;
+  font-size: 20px;
+  border-radius: 0.75rem;
+  font-family: Poor Story; 
+  border: 0; 
+  cursor: pointer;
+}
